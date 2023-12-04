@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"name": "Trial",
+		"price": 0,
+		"initial-price": 49000,
+		"tagline": "Coba Gratis"
+	},
+	{
+		"id": 2,
+		"name": "Bulanan",
+		"price": 99000,
+		"initial-price": 199000,
+		"tagline": "Harga Terbaik"
+	},
+	{
+		"id": 3,
+		"name": "Lifetime",
+		"price": 249000,
+		"initial-price": 599000,
+		"tagline": "Akses Selamanya"
+	}
+]

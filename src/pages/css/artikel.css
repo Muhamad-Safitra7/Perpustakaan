@@ -1,0 +1,44 @@
+#artikel .hero {
+	padding: 84px 0;
+	background-color: var(--secondary);
+	color: var(--white-secondary);
+}
+#artikel .card {
+	height: 100%;
+}
+
+#artikel .btn-primary{
+	color: var(--white-secondary);
+	background-color: var(--primary);
+}
+
+#artikel .btn-primary:hover{
+	color: var(--primary);
+	border-color: var(--primary);
+	background-color: var(--secondary);
+}
+
+#artikel .card-button{
+	color: var(--white-secondary);
+	background-color: var(--primary);
+}
+
+#artikel .card-button:hover{
+	color: var(--primary);
+	border-color: var(--primary);
+	background-color: var(--white-primary);
+}
+.card-body p {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+}
+
+.card-body h5 {
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+}
+

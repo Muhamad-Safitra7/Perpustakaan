@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"username": "safitra",
+		"name": "Muhamad Safitra",
+		"email": "muhamadsafitra810@gmail.com",
+		"password": "12345678"
+	},
+	{
+		"id": 2,
+		"username": "achmadimam",
+		"name": "Achmad Imam",
+		"email": "achmadimam@gmail.com",
+		"password": "$2b$10$x10ci0CuR78V5H9VnuUvwOoY/Kjaggs61.O7FeWy508xM5Ol.FYpa"
+	},
+	{
+		"id": 3,
+		"username": "efrandipebrian",
+		"name": "Efrandi Pebrian",
+		"email": "efrandipebrian@gmail.com",
+		"password": "$2b$10$Ct8diGlE0apgsS3qr5KkOuh2IVSF6SdrXYQ3VZZTHLtp5W9S1vtUq"
+	}
+]

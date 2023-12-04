@@ -1,0 +1,13 @@
+#kursus h6,
+.kursus-nav .nav-link {
+	padding: 16px 24px;
+}
+.kursus-nav .nav-link:hover,
+.kursus-nav .nav-link.active {
+	background-color: var(--secondary);
+	color: var(--white-primary);
+}
+
+.kursus-content p {
+	margin-bottom: 1rem;
+}

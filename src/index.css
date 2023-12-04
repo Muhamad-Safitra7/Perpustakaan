@@ -1,0 +1,124 @@
+:root {
+	--white-primary: #fafafa;
+	--white-secondary: #dcdcdc;
+	--black-primary: #111;
+	--black-secondary: #333;
+	--primary: #295ae3;
+	--secondary: #131230;
+	--info: #39ba7c;
+	--warning: #f4a42b;
+	--alert: #f45b6a;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: var(--white-primary);
+	color: var(--black-primary);
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+main {
+	padding-top: 64px;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+	line-height: normal;
+}
+p {
+	margin: 0;
+}
+nav {
+	background-color: var(--white-primary);
+}
+nav .btn {
+	padding: 8px 24px;
+}
+nav .nav-item .nav-link.active {
+	font-weight: 700;
+	color: var(--primary);
+}
+footer {
+	background-color: var(--secondary);
+	color: var(--white-primary);
+	padding-bottom: 12px;
+}
+footer h6 {
+	color: var(--white-primary);
+}
+footer p,
+footer li,
+footer svg {
+	color: var(--white-secondary);
+}
+footer p b {
+	color: var(--white-primary);
+}
+footer .container.footer-content svg {
+	height: 24px;
+}
+footer .container.footer-content {
+	padding: 48px 0;
+}
+#cta {
+	background-color: var(--black-primary);
+	color: var(--white-primary);
+}
+.border-top {
+	border-color: var(--black-secondary) !important;
+}
+.btn {
+	border-radius: 12px;
+	padding: 12px 24px;
+}
+.btn-primary {
+	background-color: var(--primary);
+}
+.btn-outline-primary {
+	border-color: var(--primary);
+	color: var(--primary);
+}
+.btn-outline-primary:hover {
+	background-color: var(--primary);
+	color: var(--white-primary);
+}
+.card {
+	border-radius: 24px;
+	background-color: var(--white-primary);
+	border-color: var(--white-secondary);
+	border-width: 2px;
+	width: 100%;
+	height: fit-content;
+}
+.card-body,
+.card-header,
+.card-footer {
+	padding: 24px;
+}
+.card-header,
+.card-footer {
+	background: none;
+	border: none;
+}
+.card img {
+	border-radius: 24px;
+	object-fit: cover;
+}
+.card-body {
+	padding: 24px;
+}
+.color-info {
+	color: var(--info);
+}
+.form-control {
+	background-color: var(--white-secondary);
+}

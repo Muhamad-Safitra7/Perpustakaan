@@ -1,0 +1,29 @@
+#detailArtikel .hero-section{
+	padding: 50px;
+	background-color: var(--secondary);
+    height: 250px;
+    color: white;
+}
+
+#detailArtikel .detail-section img{
+    width: 1150px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.id-artikel {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1150px;
+    text-align: justify;
+}
+
+.hero2 {
+    height: 100%;
+    padding: 84px 24px;
+    background-color: black;
+}
+
+#detailArtikel .card-body {
+    height: 140px; 
+}

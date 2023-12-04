@@ -1,0 +1,19 @@
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    text-align: start;
+  }
+
+  .sidebar a.active {
+    background-color: #131230;
+    color: white;
+    cursor: pointer;
+  }
+
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+  }

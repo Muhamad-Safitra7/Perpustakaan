@@ -1,0 +1,53 @@
+#hero {
+	padding: 160px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#hero h1 {
+	color: var(--white-primary);
+}
+#hero p {
+	color: var(--white-secondary);
+	margin-bottom: 48px;
+}
+#program-benefit {
+	background-color: var(--secondary);
+	color: var(--white-secondary);
+	padding: 48px 0;
+}
+#program-benefit .col svg {
+	height: 56px;
+}
+#content {
+	padding: 48px 0;
+}
+#nav-program .nav-item {
+	padding: 12px 48px;
+}
+#nav-program .nav-item:hover {
+	border-bottom: 2px solid var(--white-secondary);
+}
+#nav-program .nav-item.active {
+	border-bottom: 2px solid var(--black-secondary);
+}
+#program-content {
+	padding: 48px 0;
+}
+#program-content h2 {
+	margin-bottom: 48px;
+}
+#program-content h4 {
+	margin-bottom: 12px;
+}
+#content-detail .nav-item {
+	cursor: pointer;
+}
+#content-paket .btn {
+	padding: 8px 24px;
+	border-radius: 24px;
+	width: 100%;
+}
+#content-benefit svg {
+	height: 24px;
+	color: var(--info);
+}

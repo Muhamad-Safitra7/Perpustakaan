@@ -1,0 +1,18 @@
+#daftar,
+#masuk {
+	padding: 0;
+	background-color: var(--secondary);
+	min-height: 100vh;
+}
+
+#daftar svg,
+#masuk svg {
+	height: 20px;
+}
+#daftar .container,
+#masuk .container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}

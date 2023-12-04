@@ -1,0 +1,15 @@
+#checkout .btn {
+	padding: 8px 24px;
+}
+#checkout .btn-light {
+	cursor: default;
+	background-color: var(--white-primary);
+	border: none;
+}
+#checkout .btn-light:hover {
+	background-color: var(--white-primary);
+}
+#checkout svg {
+	height: 24px;
+	color: var(--info);
+}
